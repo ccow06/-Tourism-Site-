@@ -1,0 +1,106 @@
+body {
+  background-image: linear-gradient(to right, #FFEEEE, #FFEEEE, #EEEEFF, #EEEEFF);
+}
+
+p {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+img {
+  border: 5px solid black;
+  max-width: 300px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+ul li a {
+  text-decoration: none;
+  color: blue;
+}
+
+footer {
+  color: grey;
+}
+
+#title {
+  border-bottom: 5px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+#footer {
+  border-top: 5px solid black;
+  padding-top: 10px;
+  margin-top: 0;
+}
+
+#mid-column {
+  background-color: #CCCCCC99;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  height: 100%;
+}
+
+#left-column {
+  width: 16%;
+}
+
+#right-column {
+  width: 15%;
+}
+
+#back {
+  text-decoration: none;
+  color: grey;
+}
+
+/* .cont1 {
+  width: 130px;
+  height: 195px;
+  position: relative;
+  display: inline-block;
+}
+.cont1 .img1 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.cont1:hover .img1 {
+  display: inline;
+} */
+
+#newF {
+  font-family: rotten;
+  font-size: 64px;
+}
+
+@font-face {
+  font-family: rotten;
+  src: url(rotten-sans.ttf);
+}
+
+#sT {
+  text-decoration: line-through;
+  color: red;
+}
+
+#subS {
+  font-size: 28px;
+}
+
+#subS li {
+  list-style: unset;
+  margin-left: 40px;
+  margin-top: 5px;
+}
